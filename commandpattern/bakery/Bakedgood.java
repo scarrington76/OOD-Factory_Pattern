@@ -12,17 +12,6 @@ public abstract class Bakedgood {
 
 	abstract void prepare();
 
-	void bake() {
-		System.out.println("...Let's get to baking!!!!!");
-	}
-
-	void cut() {
-		System.out.println("..........It's in the oven..........");
-	}
-
-	void box() {
-		System.out.println("......................It's now boxed and ready to go!!");
-	}
 
 	void setName(String name) {
 		this.name = name;

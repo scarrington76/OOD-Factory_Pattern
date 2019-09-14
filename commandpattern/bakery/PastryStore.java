@@ -8,9 +8,6 @@ public abstract class PastryStore {
 		Bakedgood bakedgood = createBakedgood(type);
 		System.out.println("*********A " + bakedgood.getName() + " HAS BEEN ORDERED********");
 		bakedgood.prepare();
-		bakedgood.bake();
-		bakedgood.cut();
-		bakedgood.box();
 		return bakedgood;
 	}
 }
