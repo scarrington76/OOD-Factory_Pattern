@@ -1,5 +1,8 @@
 package bakery;
 
+// Author: Scott Carrington
+// Object Oriented Development
+
 public class PastryTestDrive {
  
 	public static void main(String[] args) {
